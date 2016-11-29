@@ -1,0 +1,13 @@
+//这是一个配置文件
+//an airport is defined with a line
+//si:the ith airport
+//P:airport location
+//HP:heavy plane
+//LP:light plane
+//RP:red tri-speed plane
+//(m,n,v):the airport produces m planes in m milliseconds with the intial velocity v
+//the types of planes are set freely and the same type can be repeated
+
+s1={P=(0.8,0.0);HP=(2000,1,-0.1);LP=(1000,3,-0.2);RP=(2000,1,-0.3)}
+s2={P=(0.5,-0.3);HP=(1000,1,-0.1);RP=(600,1,-0.3)}
+s3={P=(0.7,+0.3);RP=(600,1,-0.06)}
